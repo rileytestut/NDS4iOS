@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFCFE0F31764FBD3000A70CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCFE0F21764FBD3000A70CF /* UIKit.framework */; };
+		BFCFE0F51764FBD3000A70CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCFE0F41764FBD3000A70CF /* Foundation.framework */; };
+		BFCFE0F71764FBD3000A70CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCFE0F61764FBD3000A70CF /* CoreGraphics.framework */; };
+		BFCFE0FD1764FBD3000A70CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFCFE0FB1764FBD3000A70CF /* InfoPlist.strings */; };
+		BFCFE0FF1764FBD3000A70CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCFE0FE1764FBD3000A70CF /* main.m */; };
+		BFCFE1031764FBD3000A70CF /* NDSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCFE1021764FBD3000A70CF /* NDSAppDelegate.m */; };
+		BFCFE1051764FBD3000A70CF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BFCFE1041764FBD3000A70CF /* Default.png */; };
+		BFCFE1071764FBD3000A70CF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFCFE1061764FBD3000A70CF /* Default@2x.png */; };
+		BFCFE1091764FBD3000A70CF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFCFE1081764FBD3000A70CF /* Default-568h@2x.png */; };
+		BFCFE10C1764FBD3000A70CF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCFE10A1764FBD3000A70CF /* MainStoryboard.storyboard */; };
+		BFCFE10F1764FBD3000A70CF /* NDSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCFE10E1764FBD3000A70CF /* NDSMasterViewController.m */; };
+		BFCFE1121764FBD3000A70CF /* NDSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCFE1111764FBD3000A70CF /* NDSDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFCFE0EF1764FBD3000A70CF /* NDS4iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NDS4iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCFE0F21764FBD3000A70CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFCFE0F41764FBD3000A70CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFCFE0F61764FBD3000A70CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFCFE0FA1764FBD3000A70CF /* NDS4iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NDS4iOS-Info.plist"; sourceTree = "<group>"; };
+		BFCFE0FC1764FBD3000A70CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFCFE0FE1764FBD3000A70CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFCFE1001764FBD3000A70CF /* NDS4iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NDS4iOS-Prefix.pch"; sourceTree = "<group>"; };
+		BFCFE1011764FBD3000A70CF /* NDSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDSAppDelegate.h; sourceTree = "<group>"; };
+		BFCFE1021764FBD3000A70CF /* NDSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDSAppDelegate.m; sourceTree = "<group>"; };
+		BFCFE1041764FBD3000A70CF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BFCFE1061764FBD3000A70CF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BFCFE1081764FBD3000A70CF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BFCFE10B1764FBD3000A70CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BFCFE10D1764FBD3000A70CF /* NDSMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDSMasterViewController.h; sourceTree = "<group>"; };
+		BFCFE10E1764FBD3000A70CF /* NDSMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDSMasterViewController.m; sourceTree = "<group>"; };
+		BFCFE1101764FBD3000A70CF /* NDSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDSDetailViewController.h; sourceTree = "<group>"; };
+		BFCFE1111764FBD3000A70CF /* NDSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDSDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFCFE0EC1764FBD3000A70CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCFE0F31764FBD3000A70CF /* UIKit.framework in Frameworks */,
+				BFCFE0F51764FBD3000A70CF /* Foundation.framework in Frameworks */,
+				BFCFE0F71764FBD3000A70CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFCFE0E61764FBD3000A70CF = {
+			isa = PBXGroup;
+			children = (
+				BFCFE0F81764FBD3000A70CF /* NDS4iOS */,
+				BFCFE0F11764FBD3000A70CF /* Frameworks */,
+				BFCFE0F01764FBD3000A70CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFCFE0F01764FBD3000A70CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFCFE0EF1764FBD3000A70CF /* NDS4iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFCFE0F11764FBD3000A70CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFCFE0F21764FBD3000A70CF /* UIKit.framework */,
+				BFCFE0F41764FBD3000A70CF /* Foundation.framework */,
+				BFCFE0F61764FBD3000A70CF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFCFE0F81764FBD3000A70CF /* NDS4iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BFCFE1011764FBD3000A70CF /* NDSAppDelegate.h */,
+				BFCFE1021764FBD3000A70CF /* NDSAppDelegate.m */,
+				BFCFE10A1764FBD3000A70CF /* MainStoryboard.storyboard */,
+				BFCFE10D1764FBD3000A70CF /* NDSMasterViewController.h */,
+				BFCFE10E1764FBD3000A70CF /* NDSMasterViewController.m */,
+				BFCFE1101764FBD3000A70CF /* NDSDetailViewController.h */,
+				BFCFE1111764FBD3000A70CF /* NDSDetailViewController.m */,
+				BFCFE0F91764FBD3000A70CF /* Supporting Files */,
+			);
+			path = NDS4iOS;
+			sourceTree = "<group>";
+		};
+		BFCFE0F91764FBD3000A70CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFCFE0FA1764FBD3000A70CF /* NDS4iOS-Info.plist */,
+				BFCFE0FB1764FBD3000A70CF /* InfoPlist.strings */,
+				BFCFE0FE1764FBD3000A70CF /* main.m */,
+				BFCFE1001764FBD3000A70CF /* NDS4iOS-Prefix.pch */,
+				BFCFE1041764FBD3000A70CF /* Default.png */,
+				BFCFE1061764FBD3000A70CF /* Default@2x.png */,
+				BFCFE1081764FBD3000A70CF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFCFE0EE1764FBD3000A70CF /* NDS4iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCFE1151764FBD3000A70CF /* Build configuration list for PBXNativeTarget "NDS4iOS" */;
+			buildPhases = (
+				BFCFE0EB1764FBD3000A70CF /* Sources */,
+				BFCFE0EC1764FBD3000A70CF /* Frameworks */,
+				BFCFE0ED1764FBD3000A70CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NDS4iOS;
+			productName = NDS4iOS;
+			productReference = BFCFE0EF1764FBD3000A70CF /* NDS4iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFCFE0E71764FBD3000A70CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NDS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Riley Testut";
+			};
+			buildConfigurationList = BFCFE0EA1764FBD3000A70CF /* Build configuration list for PBXProject "NDS4iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFCFE0E61764FBD3000A70CF;
+			productRefGroup = BFCFE0F01764FBD3000A70CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFCFE0EE1764FBD3000A70CF /* NDS4iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFCFE0ED1764FBD3000A70CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCFE0FD1764FBD3000A70CF /* InfoPlist.strings in Resources */,
+				BFCFE1051764FBD3000A70CF /* Default.png in Resources */,
+				BFCFE1071764FBD3000A70CF /* Default@2x.png in Resources */,
+				BFCFE1091764FBD3000A70CF /* Default-568h@2x.png in Resources */,
+				BFCFE10C1764FBD3000A70CF /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFCFE0EB1764FBD3000A70CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCFE0FF1764FBD3000A70CF /* main.m in Sources */,
+				BFCFE1031764FBD3000A70CF /* NDSAppDelegate.m in Sources */,
+				BFCFE10F1764FBD3000A70CF /* NDSMasterViewController.m in Sources */,
+				BFCFE1121764FBD3000A70CF /* NDSDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFCFE0FB1764FBD3000A70CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFCFE0FC1764FBD3000A70CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFCFE10A1764FBD3000A70CF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFCFE10B1764FBD3000A70CF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFCFE1131764FBD3000A70CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFCFE1141764FBD3000A70CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFCFE1161764FBD3000A70CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NDS4iOS/NDS4iOS-Prefix.pch";
+				INFOPLIST_FILE = "NDS4iOS/NDS4iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFCFE1171764FBD3000A70CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NDS4iOS/NDS4iOS-Prefix.pch";
+				INFOPLIST_FILE = "NDS4iOS/NDS4iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFCFE0EA1764FBD3000A70CF /* Build configuration list for PBXProject "NDS4iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCFE1131764FBD3000A70CF /* Debug */,
+				BFCFE1141764FBD3000A70CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCFE1151764FBD3000A70CF /* Build configuration list for PBXNativeTarget "NDS4iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCFE1161764FBD3000A70CF /* Debug */,
+				BFCFE1171764FBD3000A70CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFCFE0E71764FBD3000A70CF /* Project object */;
+}
